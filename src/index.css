@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #E91E63;
+  --color-secondary: #FCE4EC;
+}
+
+html {
+  scroll-behavior: smooth;
+}
