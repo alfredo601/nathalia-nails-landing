@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Gallery from './components/Gallery';
 import Footer from './components/Footer';
+import BackgroundMusic from './components/BackgroundMusic';
 import { MessageCircle } from 'lucide-react';
 
 function App() {
@@ -21,6 +22,8 @@ function App() {
       </main>
 
       <Footer />
+      
+      <BackgroundMusic />
 
       {/* Floating WhatsApp Button */}
       <a
