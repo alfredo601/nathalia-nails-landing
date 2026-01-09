@@ -15,9 +15,14 @@ const Header = () => {
     <header className="fixed w-full bg-white/95 backdrop-blur-sm shadow-sm z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <div className="flex-shrink-0 flex items-center">
-            <span className="text-2xl font-serif text-primary font-bold">NG</span>
-            <span className="ml-2 text-gray-700 font-medium hidden sm:block">Nathalia Gonzaga</span>
+          <div className="flex-shrink-0 flex items-center gap-2">
+            {/* Logo Image */}
+            <img 
+              src="/logo.png" 
+              alt="Nathalia Gonzaga Logo" 
+              className="h-10 w-auto object-contain rounded-full" 
+            />
+            <span className="text-gray-700 font-medium hidden sm:block">Nathalia Gonzaga</span>
           </div>
 
           {/* Desktop Menu */}
